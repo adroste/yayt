@@ -9,3 +9,7 @@ Youtube wrapper for optimized mobile use in iOS.
 * pip (picture-in-picture) fixed
 * background play
 * coming soon: no ads, default hd
+
+## dev todos
+
+* [ ] watch navigation to fix: share sheet & go back on nav error
