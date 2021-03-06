@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<HTML lang="en">
+
+<head>
+    <title>YAYT - Yet Another YouTube App</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="/app/style.css">
+
+</head>
+
+<body>
+
+    <div id="content">
+        <iframe id="ytframe" src="about:blank" title="YouTube" sandbox="allow-scripts allow-same-origin allow-top-navigation allow-modals allow-forms"></iframe>
+    </div>
+
+    <!-- Start ovrlay is visible when app is not in (soft) fullscreen -->
+    <div id="start" class="container overlay show-overlay">
+        <h1>YAYT</h1>
+        <p class="subheading">Yet Another YouTube App for iOS</p>
+
+        <br/>
+
+        <p class="large">Scroll down to enter YouTube ▾</p>
+    </div>
+
+    <div id="nav-error" class="container overlay">
+        <p class="x-large">You are about to leave YouTube</p>
+        <p>Due to security restrictions it is not allowed to navigate outside of YouTube while YAYT is enabled.</p>
+
+        <br />
+
+        <button id="back-button" class="button">Go back</button>
+        <button id="no-yayt-button" class="button button-clear">Reload without YAYT</button>
+    </div>
+
+
+    <script src="/app/main.js" type="application/javascript"></script>
+
+</body>
+
+</HTML>

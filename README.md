@@ -6,8 +6,6 @@ Youtube wrapper for optimized mobile use in iOS.
 
 ## Features
 
-* fullscreen
-* standalone pwa
 * pip (picture-in-picture) fixed
 * background play
-* coming soon: no ads
+* coming soon: no ads, default hd

@@ -1,0 +1,16 @@
+{
+  "name": "yayt",
+  "description": "Youtube wrapper for optimized mobile use in iOS.",
+  "private": "true",
+  "scripts": {
+    "dev": "serve -l 1234 --cors --ssl-cert ./test.cert --ssl-key ./test.key ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adroste/yayt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adroste/yayt/issues"
+  },
+  "homepage": "https://adroste.github.io/yayt/index.html"
+}
