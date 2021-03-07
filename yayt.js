@@ -15,6 +15,11 @@ function getApp() {
 }
 
 (function inject() {
+    if (!window.location.origin.includes('youtube')) {
+        alert(`YAYT cannot start on:\n${window.location.origin}\nPlease go to YouTube and try again.`);
+        return;
+    }
+
     getApp().then(app => {
         document.documentElement.innerHTML = app.html;
         const head = document.getElementsByTagName('head')[0];
